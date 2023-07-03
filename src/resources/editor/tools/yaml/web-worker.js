@@ -19836,7 +19836,7 @@ try {
           },
           {
             short: "Show a thick left border on code blocks.",
-            long: "Specifies to apply a left border on code blocks. Provide a hex color\nto specify that the border is enabled as well as the color of the\nborder.="
+            long: "Specifies to apply a left border on code blocks. Provide a hex color\nto specify that the border is enabled as well as the color of the\nborder."
           },
           {
             short: "Show a background color for code blocks.",
@@ -21644,12 +21644,12 @@ try {
           mermaid: "%%"
         },
         "handlers/mermaid/schema.yml": {
-          _internalId: 158641,
+          _internalId: 154670,
           type: "object",
           description: "be an object",
           properties: {
             "mermaid-format": {
-              _internalId: 158633,
+              _internalId: 154662,
               type: "enum",
               enum: [
                 "png",
@@ -21665,7 +21665,7 @@ try {
               exhaustiveCompletions: true
             },
             theme: {
-              _internalId: 158640,
+              _internalId: 154669,
               type: "anyOf",
               anyOf: [
                 {
