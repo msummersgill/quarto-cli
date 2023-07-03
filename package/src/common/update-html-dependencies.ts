@@ -973,11 +973,11 @@ const themePatches: Record<string, ThemePatch[]> = {
     to:
       ".navbar {\n  @include shadow();\n  border-color: shade-color($navbar-bg, 10%);",
   }],
-  "simplex": [{
-    from: ".navbar {\n  border-width: 1px;\n  border-style: solid;",
-    to:
-      ".navbar {\n  border-width: 1px;\n  border-style: solid;\n  border-color: shade-color($navbar-bg, 13%);",
-  }],
+//"simplex": [{
+// from: ".navbar {\n  border-width: 1px;\n  border-style: solid;",
+//  to:
+//    ".navbar {\n  border-width: 1px;\n  border-style: solid;\n  border-color: shade-color($navbar-bg, 13%);",
+//}],
   "solar": [{
     from: "$body-color:                $gray-600 !default;",
     to: "$body-color:                $gray-500 !default;",
