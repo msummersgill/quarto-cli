@@ -115,7 +115,7 @@ export const bootstrapResourceDir = () => {
 export const sassUtilFunctions = (name: string) => {
   const bootstrapDistDir = formatResourcePath(
     "html",
-    join("bootstrap", "dist"),
+    join("bootstrap", "dist","scss"),
   );
 
   const path = join(bootstrapDistDir, "sass-utils", name);
